@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  ZWTextEditor
+//
+//  Created by 杨杨鹏 on 2020/9/14.
+//  Copyright © 2020 杨杨鹏. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AppMacro.h"
+#import "UIView+YP.h"
+#import "UIImage+Tint.h"
+#import "UIButton+ImageAndTitle.h"
+#import "YPStringUtils.h"
+
+#endif /* PrefixHeader_pch */
